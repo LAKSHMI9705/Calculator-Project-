@@ -1,0 +1,46 @@
+/* style.css - Calculator Project Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8dc; /* light cream background */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* green button */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #45a049; /* darker green on hover */
+}
+
+h3 {
+    margin-top: 20px;
+    color: #222;
+}
